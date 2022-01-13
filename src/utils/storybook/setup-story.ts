@@ -153,12 +153,13 @@ export function setupStory(stencilSettings, storySettings) {
       // is stencil select there?
       if (settings.argTypes[arg]) {
         if ('control' in settings.argTypes[arg]) {
-          settings.argTypes[arg].control.options = storySettings.argOptions[arg];
+          settings.argTypes[arg].options = storySettings.argOptions[arg];
         } else {
           settings.argTypes[arg].control = {
             type: 'select',
-            options: storySettings.argOptions[arg],
           };
+
+          settings.argTypes[arg].options = storySettings.argOptions[arg];
         }
       }
       return true;

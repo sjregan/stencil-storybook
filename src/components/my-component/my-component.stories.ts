@@ -23,8 +23,8 @@ const Story = setupStory(stencilStories, {
     radio: {
       control: {
         type: 'inline-radio',
-        options: ['loading', 'error', 'ready'],
       },
+      options: ['loading', 'error', 'ready'],
     },
   },
 });
