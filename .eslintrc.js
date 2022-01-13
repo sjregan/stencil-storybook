@@ -1,9 +1,9 @@
 module.exports = {
   root: true,
   parserOptions: {
-    project: './tsconfig.json',
+    project: './tsconfig.json'
   },
-  extends: ['airbnb-typescript', 'plugin:@stencil/recommended'],
+  extends: ["airbnb-typescript", "plugin:@stencil/recommended", "plugin:storybook/recommended"],
   ignorePatterns: ['*eslintrc*', 'loader.js', 'node_modules', 'dist', 'stencil-stories.ts'],
   // Severity should be one of the following: 0 = off, 1 = warn, 2 = error
   rules: {
@@ -71,6 +71,6 @@ module.exports = {
     'react/jsx-indent-props': 'off',
     'react/jsx-tag-spacing': 'off',
     'react/jsx-no-bind': 'off',
-    'react/jsx-one-expression-per-line': 'off',
-  },
+    'react/jsx-one-expression-per-line': 'off'
+  }
 };
