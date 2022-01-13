@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`other-component default 1`] = `"<other-component class=\\"other-component dasdsa---dddsd container\\"><!----> Hello, World! I'm <span class=\\"other-component__name\\"></span>  </other-component>"`;
+
+exports[`other-component vs. default manually 1`] = `
+<other-component class="container dasdsa---dddsd other-component">
+  <!---->
+  Hello, World! I'm
+  <span class="other-component__name"></span>
+</other-component>
+`;

@@ -1,0 +1,24 @@
+@import '#$componentNameSelector';
+
+// with shadow dom
+:host {
+  display: block;
+  font-family: sans-serif;
+}
+
+#{$componentNameSelector} {
+  font-size: ms(0);
+  display: block;
+  // block
+  &__name {
+    color: $color-green-400;
+
+    #{$componentNameSelector}__example-for-inner-block {
+      color: $color-red-400;
+    }
+  }
+  // modifier
+  &--modified {
+    text-align: center;
+  }
+}

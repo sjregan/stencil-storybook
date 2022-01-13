@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`other-component default 1`] = `
+<other-component class="container dasdsa---dddsd hydrated other-component">
+  <!---->
+  Hello, World! I'm
+  <span class="other-component__name"></span>
+</other-component>
+`;
