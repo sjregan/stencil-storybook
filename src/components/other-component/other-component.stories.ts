@@ -1,4 +1,5 @@
-import { setupStory, setupVariant, h, setupComposition } from '../../utils/storybook';
+// import { setupStory, setupVariant, h, setupComposition } from '../../utils/storybook';
+import { setupStory, setupVariant } from '../../utils/storybook';
 import stencilStories from './stencil-stories';
 
 const Story = setupStory(stencilStories, {
