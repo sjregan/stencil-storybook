@@ -36,7 +36,7 @@ const generatedConfig: Config = {
     },
     // one file in es6
     {
-      type: 'dist-custom-elements-bundle',
+      type: 'dist-custom-elements',
       dir: distDirs.stencil,
     },
     // create components(.d.ts|json) into dist
